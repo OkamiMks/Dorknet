@@ -1,5 +1,6 @@
+# 📩 Telegram group
+https://t.me/mksDecode
 # 📡 Dorknet
-
 <h3>Funcionalidade</h3>
 <strong>Gerador e pesquisador de dorks e urls / Dork and url generator and searcher</strong><br>
 Teste e ache sites por meio de suas dorks ou chaves <br><br>
