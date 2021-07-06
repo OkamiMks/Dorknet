@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "DorkNet/1.0.0": {
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.34",
+          "MP3Sharp": "1.0.5"
+        },
+        "runtime": {
+          "DorkNet.dll": {}
+        }
+      },
+      "HtmlAgilityPack/1.11.34": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.34.0",
+            "fileVersion": "1.11.34.0"
+          }
+        }
+      },
+      "MP3Sharp/1.0.5": {
+        "runtime": {
+          "lib/netstandard2.0/MP3Sharp.dll": {
+            "assemblyVersion": "1.0.5.0",
+            "fileVersion": "1.0.5.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DorkNet/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HtmlAgilityPack/1.11.34": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LJyKMPuQVRi68RnPRmptSSJa1r3adpIfII/tfyMkismDhgmdS0i2ruOGF3Y7Ocxt4IfnhG76BNIa4dzMfR+KYw==",
+      "path": "htmlagilitypack/1.11.34",
+      "hashPath": "htmlagilitypack.1.11.34.nupkg.sha512"
+    },
+    "MP3Sharp/1.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KyGy1ZBVEXfovHdJRY8NzjWZBdL75PSx+13KW720JuUTKyWbDCHk0jgjif9b62UPnBZu5V/ZB+tpHWcPhoZS8Q==",
+      "path": "mp3sharp/1.0.5",
+      "hashPath": "mp3sharp.1.0.5.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <ApplicationIcon>doge-icon-21.ico</ApplicationIcon>
+    <Company>Mks decode</Company>
+    <Description>Dorkent - Ferramentas pentest e vulnerabilidades para programadores.</Description>
+    <Copyright>Okami</Copyright>
+    <RepositoryUrl>https://github.com/OkamiStudioMks/Dorknet</RepositoryUrl>
+    <RepositoryType>source</RepositoryType>
+    <PackageTags>Dork, programmer, code, source, scam, url, search, mks, okami</PackageTags>
+    <PackageReleaseNotes>versão beta - pode conter erros e bugs</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <COMReference Include="WMPLib">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>6bf52a50-394a-11d3-b153-00c04f79faa6</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.34" />
+    <PackageReference Include="MP3Sharp" Version="1.0.5" />
+  </ItemGroup>
+
+</Project>
